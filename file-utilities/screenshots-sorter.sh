@@ -1,12 +1,15 @@
 #!/bin/zsh
 # Name: Screenshots sorter
 # Purpose: Sort incoming screenshots from movies one watch with VLC
-# Author: @ks1v
+# Author: @ks1v, ChatGPT-4 assisted
 # Version: 1.0
 # VLC snapshot prefix: "$N_$T"
 
 screenshot_dir="/Users/ks1v/screenshots"
 cd "$screenshot_dir"
+
+# TODO 
+#source vlc-default.sh 
 
 draw_progress_bar() {
     local total=$1
